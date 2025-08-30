@@ -1,6 +1,16 @@
-1. ক্লোন বা নতুন ফোল্ডার
-mkdir facepage && cd facepage
-git init
+cat > README.md <<'EOF'
+# Facepage - Starter
 
-# 2. backend ফোল্ডার তৈরি
-mkdir -p backend/src/{models,controllers,routes,middleware,config}
+## How to run (Backend)
+cd backend
+npm install
+cp .env.example .env
+# edit .env to set MONGO_URI and JWT_SECRET
+npm start
+
+## How to run (Frontend)
+cd frontend
+npm install
+npm start
+# open http://localhost:3000
+EOF
