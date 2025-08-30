@@ -1,1 +1,2 @@
-# Facepage
+# frontend ফোল্ডার তৈরি
+mkdir -p frontend/src/{pages,services}
