@@ -1,16 +1,13 @@
-cat > README.md <<'EOF'
-# Facepage - Starter
+# Facepage
 
-## How to run (Backend)
+A simple Facebook-like platform built with:
+- Frontend: HTML, CSS, JS
+- Backend: Node.js, Express
+
+## How to Run
+
+### Backend
+```bash
 cd backend
 npm install
-cp .env.example .env
-# edit .env to set MONGO_URI and JWT_SECRET
 npm start
-
-## How to run (Frontend)
-cd frontend
-npm install
-npm start
-# open http://localhost:3000
-EOF
